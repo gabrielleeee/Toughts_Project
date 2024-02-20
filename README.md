@@ -1,8 +1,6 @@
 
 # Toughts
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
-
 Tought é uma aplicação web baseada em um padrão de arquitetura MVC que desenvolvi durante o curso "Node.js do Zero a Maestria com diversos Projetos" com o instrutor Matheus Battisti na Udemy.  
 
 É um projeto de CRUD de pensamentos, onde os usuários podem registrar uma conta, fazer login, cadastrar seus próprios pensamentos e visualizar pensamentos de outros usuários. A aplicação inclui recursos de autenticação, filtros de ordenação e pesquisa para facilitar a navegação e o gerenciamento de pensamentos.

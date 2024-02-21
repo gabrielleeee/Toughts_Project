@@ -13,4 +13,24 @@ module.exports = class ToughtController {
   static createTought (req, res) {
     res.render('toughts/create')
   }
+
+  static async createToughtSave (req, res) {
+
+    const tought = {
+      title: req.body.title,
+      UserId: req.session.userid
+    }
+
+    await Tought.create(tought)
+    req.flash('message', 'Pensamento criado com sucesso!')
+    
+    try {
+      req.session.save(() => {
+        res.redirect('/toughts/dashboard')
+      })
+    } catch(error) {
+      console.log('Aconteceu um erro:' + error)
+    }
+    
+  }
 }

@@ -183,6 +183,10 @@ color: #f6982d
   margin: 0 0.5em;
 }
 
+.dashboard a {
+  color: #f6982d
+}
+
 /*FOOTER*/
 footer {
   height: 150px;

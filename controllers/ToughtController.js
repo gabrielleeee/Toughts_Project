@@ -26,9 +26,13 @@ module.exports = class ToughtController {
     //map: modifica os itens em um array
     const toughts = user.Toughts.map((result) => result.dataValues)
 
-    console.log(toughts)
+    let emptyToughts = false
 
-    res.render('toughts/dashboard', { toughts })
+    if(toughts.length === 0) {
+      emptyToughts = true
+    }
+
+    res.render('toughts/dashboard', { toughts, emptyToughts })
   }
 
   static createTought (req, res) {
@@ -72,5 +76,13 @@ module.exports = class ToughtController {
       console.log('Aconteceu um erro:' + error)
     }
 
+  }
+
+  static async updateTought (req, res) {
+    const id =  req.params.id
+
+    const tought = await Tought.findOne({where: {id: id}, raw: true})
+
+    res.render('toughts/edit', { tought })
   }
 }

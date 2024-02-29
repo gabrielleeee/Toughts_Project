@@ -70,13 +70,13 @@ http://localhost:3000
 
 # Mídias:
 <div align="center">
-<img src="https://github.com/gabrielleeee/Toughts_Project/assets/89078209/e086c89e-8d6e-4f34-844a-a043d5c9bace" width="500px" />
+<img src="https://github.com/gabrielleeee/Toughts_Project/assets/89078209/e086c89e-8d6e-4f34-844a-a043d5c9bace" width="650px" />
 </div>
 
 <div align="center">
-<img src="https://github.com/gabrielleeee/Toughts_Project/assets/89078209/f002eddf-6072-4cb6-a22f-e13531c267b0" width="500px" />
+<img src="https://github.com/gabrielleeee/Toughts_Project/assets/89078209/f002eddf-6072-4cb6-a22f-e13531c267b0" width="650px" />
 </div>
 
 <div align="center">
-<img src="https://github.com/gabrielleeee/Toughts_Project/assets/89078209/e591e5bd-1f42-4834-8937-91d0dbda98c6" width="500px" />
+<img src="https://github.com/gabrielleeee/Toughts_Project/assets/89078209/e591e5bd-1f42-4834-8937-91d0dbda98c6" width="650px" />
 </div>

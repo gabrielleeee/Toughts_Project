@@ -187,6 +187,95 @@ color: #f6982d
   color: #f6982d
 }
 
+/* HOME */
+.home-header {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-header h1 {
+  margin-bottom: 1em;
+}
+
+.home-header span {
+  color: #f6982d;
+}
+
+.home-header p,
+.home-header form {
+  margin-bottom: 1.2em;
+}
+
+.home-header input {
+  border: none;
+  border-bottom: 1px solid #FFF;
+  padding: 0.5em;
+  margin-right: 1em;
+}
+
+.home-header input[type='text'] {
+  width: 60%;
+}
+
+.home-header input::placeholder {
+  color: #FFF;
+}
+
+.order-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto 1em;
+}
+
+.order-container span {
+  font-weight: bold;
+  color: #FFF;
+}
+
+.order-container form {
+  margin: 0;
+}
+
+.order-container button{
+  margin-bottom: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.order-container button:hover,
+.order-container i:hover,
+.order-container a:hover {
+  color: #f6982d;
+}
+
+.order-container button,
+.order-container i,
+.order-container a {
+  margin: 0 7px;
+}
+
+.toughts-container figure {
+  border-bottom: 1px solid #333;
+  padding: 0.5em;
+  max-width: 50%;
+  margin: 0 auto 1em;
+}
+
+.toughts-container blockquote {
+  font-style: italic;
+  font-size: 2em;
+  margin-bottom: 0.4em;
+}
+
+.toughts-container span {
+  color: #f6982d;
+}
+
 /*FOOTER*/
 footer {
   height: 150px;
